@@ -20,7 +20,7 @@ En mi vida como usuario, y más tarde como desarrollador, que se beneficia de la
 
 Si cae fuera de estas categorías bastante amplias, por favor hágamelo saber. Siempre me gusta escuchar de las personas que leen sobre lo que escribo. Implementar la accesibilidad afecta a todo el equipo, desde los colores elegidos por el diseñador, la copia escrita por el redactor publicitario, y hasta usted, el desarrollador.
 
-## Entonces, ¿qué es la accesibilidad de todos modos?
+## Entonces, ¿qué es la accesibilidad?
 
 La accesibilidad en sí misma es un término un tanto engañoso a veces, especialmente si el inglés es su segundo idioma. A veces se le conoce como diseño inclusivo.
 
@@ -73,9 +73,9 @@ La especificación HTML es un documento que describe cómo se debe usar el lengu
 
     <div class="awesome-button"></div> 
  
-    <span><strong>Huge heading I will style with CSS later</strong></span> 
+    <span><strong>Encabezado gigante que estilizaré con CSS despues</strong></span> 
  
-    <span class="clickable-with-JavaScript">English</span> 
+    <span class="clickable-with-JavaScript">Español</span> 
 ```
 
 ¿Adivina qué? Los tres de estos elementos rompen varios criterios de WCAG y, por lo tanto, no son accesibles en absoluto.
@@ -93,11 +93,11 @@ Spans y divs no son elementos. Están destinados a contener otros elementos, no 
 
 ```html
 
-    <button>This is a button</button> 
+    <button>Este es un botón</button> 
  
-    <h2>Here's a heading level two</h2> 
+    <h2>Aquí está un encabezado nivel dos</h2> 
  
-    <a href="JavascriptThing">English</a> 
+    <a href="JavascriptThing">Español</a> 
 ```
 
 Auge. De repente, todos estos elementos ahora son perfectamente accesibles, solo mediante el uso de HTML nativo. HTML de la forma en que estaba destinado a ser utilizado, en otras palabras.
